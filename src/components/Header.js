@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Menu from './svg/bars-solid.svg';
 import Close from './svg/times-solid.svg';
 import CartIcon from './svg/cart-arrow-down-solid.svg';
+import './styles/Header.css';
 import { Link } from 'react-router-dom';
 
 export class Header extends Component {
@@ -28,13 +29,18 @@ export class Header extends Component {
               <Link to="/">Contact</Link>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <Link to="/">Info</Link>
             </li>
-            <li>
-              <Link to="/">Login / Register</Link>
+            <li className="close">
+              <img src={Close} alt="" width="20"></img>
             </li>
-            <li></li>
           </ul>
+          <div className="nav-cart">
+            <span>0</span>
+            <Link to="/cart">
+              <img src={CartIcon} alt="" width="20"></img>
+            </Link>
+          </div>
         </nav>
       </header>
     );

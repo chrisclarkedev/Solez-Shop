@@ -1,0 +1,13 @@
+header {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+header .logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
