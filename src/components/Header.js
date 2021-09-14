@@ -6,10 +6,19 @@ import './styles/Header.css';
 import { Link } from 'react-router-dom';
 
 export class Header extends Component {
+  state = {
+    toggle: false,
+  };
+
+  menuToggle = () => {
+    this.setState({ toggle: !this.state.toggle });
+  };
+
   render() {
+    const { toggle } = this.state;
     return (
       <header>
-        <div className="menu">
+        <div className="menu" onClick={this.menuToggle}>
           <img src={Menu} alt="" width="20"></img>
         </div>
         <div className="logo">
@@ -18,7 +27,7 @@ export class Header extends Component {
           </h1>
         </div>
         <nav>
-          <ul>
+          <ul className={toggle ? 'toggle' : ''}>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -34,7 +43,7 @@ export class Header extends Component {
             <li>
               <Link to="/info">LOGIN</Link>
             </li>
-            <li className="close">
+            <li className="close" onClick={this.menuToggle}>
               <img src={Close} alt="" width="20"></img>
             </li>
           </ul>
