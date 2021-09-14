@@ -23,13 +23,16 @@ export class Header extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/">Products</Link>
+              <Link to="/product">Products</Link>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/">Info</Link>
+              <Link to="/info">Info</Link>
+            </li>
+            <li>
+              <Link to="/info">LOGIN</Link>
             </li>
             <li className="close">
               <img src={Close} alt="" width="20"></img>
