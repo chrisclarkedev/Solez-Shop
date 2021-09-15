@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export const DataContext = React.Context();
+export const DataContext = React.createContext();
 
 export class DataProvider extends Component {
   state = {
@@ -68,6 +68,11 @@ export class DataProvider extends Component {
     ],
   };
   render() {
-    return <div></div>;
+    const { products } = this.state;
+    return (
+      <DataContext.Provider value={{ products }}>
+        {this.props.children}
+      </DataContext.Provider>
+    );
   }
 }
