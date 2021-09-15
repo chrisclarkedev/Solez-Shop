@@ -41,16 +41,16 @@ export class Header extends Component {
               <Link to="/info">Info</Link>
             </li>
             <li>
-              <Link to="/info">LOGIN</Link>
+              <Link to="/login">Login</Link>
             </li>
             <li className="close" onClick={this.menuToggle}>
-              <img src={Close} alt="" width="20"></img>
+              <img src={Close} alt="" width="20" />
             </li>
           </ul>
           <div className="nav-cart">
             <span>0</span>
             <Link to="/cart">
-              <img src={CartIcon} alt="" width="20"></img>
+              <img src={CartIcon} alt="" width="20" />
             </Link>
           </div>
         </nav>

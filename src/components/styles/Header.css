@@ -74,7 +74,7 @@ header .close {
     transition: 0.5s linear;
   }
   header .menu,
-  header.close {
+  header .close {
     display: block;
   }
   header .close {
