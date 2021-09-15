@@ -8,7 +8,7 @@ export class Section extends Component {
     return (
       <section>
         <Route path="/product" component={Products} exact />
-        <Route path="/product:id" component={Details} />
+        <Route path="/product/:id" component={Details} />
       </section>
     );
   }
