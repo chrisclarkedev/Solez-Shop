@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { DataContext } from '../Context';
+import '../styles/Products.css';
 
 export class Products extends Component {
   static contextType = DataContext;
@@ -17,6 +18,10 @@ export class Products extends Component {
               <h3>
                 <Link to={`/product/${product._id}`}>{product.title}</Link>
               </h3>
+              {/* Display Price of product, description and add to cart button */}
+              <span>{product.price}</span>
+              <p>{product.Description}</p>
+              <button>Add to Cart</button>
             </div>
           </div>
         ))}
