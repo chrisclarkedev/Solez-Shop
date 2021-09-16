@@ -13,6 +13,11 @@ export class Products extends Component {
             <Link to={`/product/${product._id}`}>
               <img src={product.src} alt="" />
             </Link>
+            <div className="content">
+              <h3>
+                <Link to={`/product/${product._id}`}>{product.title}</Link>
+              </h3>
+            </div>
           </div>
         ))}
       </div>

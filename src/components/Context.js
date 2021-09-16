@@ -8,7 +8,7 @@ export class DataProvider extends Component {
       {
         _id: '1',
         title: 'Sneaker 01',
-        src: 'https://i.ibb.co/DY9Zs92/blazer1.jpg',
+        src: 'https://i.ibb.co/16dbK5k/1.jpg',
         Description: 'Testing Testing 123',
         Brand: 'This is where brand goes for this product',
         price: '$90',
@@ -28,7 +28,7 @@ export class DataProvider extends Component {
       {
         _id: '3',
         title: 'Sneaker 03',
-        src: 'https://i.ibb.co/jZBKtP8/airmax2021-runner.jpg',
+        src: 'https://i.ibb.co/qJ1BsMS/3.jpg',
         Description: 'Testing Testing 123',
         Brand: 'Nike',
         price: '$110',
@@ -48,7 +48,7 @@ export class DataProvider extends Component {
       {
         _id: '5',
         title: 'Sneaker 05',
-        src: 'https://i.ibb.co/W6qhgSr/airmaxplus.jpg',
+        src: 'https://i.ibb.co/k82Tbf5/5.jpg',
         Description: 'Testing Testing 123',
         Brand: 'Nike',
         price: '$125',
