@@ -4,11 +4,9 @@ export class Colors extends Component {
   render() {
     const { colors } = this.props;
     return (
-      <div>
+      <div className="colors">
         {colors.map((color, index) => (
-          <button key={index} style={{ background: color }}>
-            0
-          </button>
+          <button key={index} style={{ background: color }}></button>
         ))}
       </div>
     );
