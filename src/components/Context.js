@@ -66,6 +66,7 @@ export class DataProvider extends Component {
         stock: 1,
       },
     ],
+    cart: [],
   };
   render() {
     const { products } = this.state;
