@@ -71,10 +71,17 @@ export class DataProvider extends Component {
 
   addtoCart = (id) => {
     const { products, cart } = this.state;
-    const data = products.filter((product) => {
-      return product._id === id;
+    const check = cart.every((item) => {
+      return item._id !== id;
     });
-    this.setState({ cart: [...cart, ...data] });
+    if (check) {
+      const data = products.filter((product) => {
+        return product._id === id;
+      });
+      this.setState({ cart: [...cart, ...data] });
+    } else {
+      alert('This product has been added to the cart already.');
+    }
   };
 
   render() {
