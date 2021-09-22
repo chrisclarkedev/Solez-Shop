@@ -68,10 +68,20 @@ export class DataProvider extends Component {
     ],
     cart: [],
   };
+
+  addtoCart = (id) => {
+    const { products, cart } = this.state;
+    const data = products.filter((product) => {
+      return product._id === id;
+    });
+    this.setState({ cart: [...cart, ...data] });
+  };
+
   render() {
-    const { products } = this.state;
+    const { products, cart } = this.state;
+    const { addtoCart } = this;
     return (
-      <DataContext.Provider value={{ products }}>
+      <DataContext.Provider value={{ products, addtoCart, cart }}>
         {this.props.children}
       </DataContext.Provider>
     );
