@@ -105,7 +105,7 @@ export class DataProvider extends Component {
   };
 
   removeProduct = (id) => {
-    if (window.confirm('Do you want to delete this?')) {
+    if (window.confirm('Do you want to remove this product from the cart?')) {
       const { cart } = this.state;
       cart.forEach((item, index) => {
         if (item._id === id) {

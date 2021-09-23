@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { DataContext } from '../Context';
 import { Link } from 'react-router-dom';
 import Colors from './Colors';
+import '../styles/Cart.css';
 import '../styles/Details.css';
 
 export class Cart extends Component {
@@ -12,7 +13,7 @@ export class Cart extends Component {
     return (
       <>
         {cart.map((item) => (
-          <div className="details" key={item._id}>
+          <div className="details cart" key={item._id}>
             <img src={item.src} alt="" />
             <div className="box">
               <div className="row">
@@ -39,6 +40,10 @@ export class Cart extends Component {
             </div>
           </div>
         ))}
+        <div className="total">
+          <Link to="/payment">Payment</Link>
+          <h3>Total: 0</h3>
+        </div>
       </>
     );
   }
