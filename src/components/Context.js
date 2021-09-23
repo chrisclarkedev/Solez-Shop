@@ -13,7 +13,7 @@ export class DataProvider extends Component {
         Brand: 'This is where brand goes for this product',
         price: '$90',
         colors: ['black', 'white'],
-        stock: 5,
+        count: 1,
       },
       {
         _id: '2',
@@ -23,7 +23,7 @@ export class DataProvider extends Component {
         Brand: 'Adidas',
         price: '$75',
         colors: ['black', 'red'],
-        stock: 3,
+        count: 1,
       },
       {
         _id: '3',
@@ -33,7 +33,7 @@ export class DataProvider extends Component {
         Brand: 'Nike',
         price: '$110',
         colors: ['white', 'grey', 'yellowgreen'],
-        stock: 8,
+        count: 1,
       },
       {
         _id: '4',
@@ -43,7 +43,7 @@ export class DataProvider extends Component {
         Brand: 'Adidas',
         price: '$65',
         colors: ['white', 'green'],
-        stock: 13,
+        count: 1,
       },
       {
         _id: '5',
@@ -53,7 +53,7 @@ export class DataProvider extends Component {
         Brand: 'Nike',
         price: '$125',
         colors: ['black', 'blue', 'white'],
-        stock: 10,
+        count: 1,
       },
       {
         _id: '6',
@@ -63,7 +63,7 @@ export class DataProvider extends Component {
         Brand: 'Adidas',
         price: '$85',
         colors: ['black', 'blue'],
-        stock: 1,
+        count: 1,
       },
     ],
     cart: [],
@@ -84,11 +84,52 @@ export class DataProvider extends Component {
     }
   };
 
+  reduction = (id) => {
+    const { cart } = this.state;
+    cart.forEach((item) => {
+      if (item._id === id) {
+        item.count === 1 ? (item.count = 1) : (item.count -= 1);
+      }
+    });
+    this.setState({ cart: cart });
+  };
+
+  increase = (id) => {
+    const { cart } = this.state;
+    cart.forEach((item) => {
+      if (item._id === id) {
+        item.count += 1;
+      }
+    });
+    this.setState({ cart: cart });
+  };
+
+  removeProduct = (id) => {
+    if (window.confirm('Do you want to delete this?')) {
+      const { cart } = this.state;
+      cart.forEach((item, index) => {
+        if (item._id === id) {
+          cart.splice(index, 1);
+        }
+      });
+      this.setState({ cart: cart });
+    }
+  };
+
   render() {
     const { products, cart } = this.state;
-    const { addtoCart } = this;
+    const { addtoCart, reduction, increase, removeProduct } = this;
     return (
-      <DataContext.Provider value={{ products, addtoCart, cart }}>
+      <DataContext.Provider
+        value={{
+          products,
+          addtoCart,
+          cart,
+          reduction,
+          increase,
+          removeProduct,
+        }}
+      >
         {this.props.children}
       </DataContext.Provider>
     );

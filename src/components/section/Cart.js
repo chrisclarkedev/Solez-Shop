@@ -8,7 +8,7 @@ export class Cart extends Component {
   static contextType = DataContext;
 
   render() {
-    const { cart } = this.context;
+    const { cart, increase, reduction, removeProduct } = this.context;
     return (
       <>
         {cart.map((item) => (
@@ -22,9 +22,20 @@ export class Cart extends Component {
               <Colors colors={item.colors} />
               <p>{item.Brand}</p>
               <p>{item.Description}</p>
-              <Link to="/cart" className="cart">
-                Add to cart
-              </Link>
+              <div className="amount">
+                <button className="count" onClick={() => reduction(item._id)}>
+                  {' '}
+                  -{' '}
+                </button>
+                <span>{item.count}</span>
+                <button className="count" onClick={() => increase(item._id)}>
+                  {' '}
+                  +{' '}
+                </button>
+              </div>
+            </div>
+            <div className="delete" onClick={() => removeProduct(item._id)}>
+              X
             </div>
           </div>
         ))}
