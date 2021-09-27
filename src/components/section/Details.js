@@ -26,6 +26,7 @@ export class Details extends Component {
 
   render() {
     const { product } = this.state;
+    const { addtoCart } = this.context;
     return (
       <>
         {product.map((item) => (
@@ -39,7 +40,11 @@ export class Details extends Component {
               <Colors colors={item.colors} />
               <p>{item.Brand}</p>
               <p>{item.Description}</p>
-              <Link to="/cart" className="cart">
+              <Link
+                to="/cart"
+                className="cart"
+                onClick={() => addtoCart(item._id)}
+              >
                 Add to cart
               </Link>
             </div>
