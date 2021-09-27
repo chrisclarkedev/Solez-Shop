@@ -128,6 +128,22 @@ export class DataProvider extends Component {
     this.setState({ total: res });
   };
 
+  componentDidUpdate() {
+    localStorage.setItem('dataCart', JSON.stringify(this.state.cart));
+    localStorage.setItem('dataTotal', JSON.stringify(this.state.total));
+  }
+
+  componentDidMount() {
+    const dataCart = JSON.parse(localStorage.getItem('dataCart'));
+    if (dataCart !== null) {
+      this.setState({ cart: dataCart });
+    }
+    const dataTotal = JSON.parse(localStorage.getItem('dataTotal'));
+    if (dataTotal !== null) {
+      this.setState({ total: dataTotal });
+    }
+  }
+
   render() {
     const { products, cart, total } = this.state;
     const { addtoCart, reduction, increase, removeProduct, getTotal } = this;
