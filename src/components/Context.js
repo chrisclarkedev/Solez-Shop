@@ -93,6 +93,7 @@ export class DataProvider extends Component {
       }
     });
     this.setState({ cart: cart });
+    this.getTotal();
   };
 
   increase = (id) => {
@@ -103,6 +104,7 @@ export class DataProvider extends Component {
       }
     });
     this.setState({ cart: cart });
+    this.getTotal();
   };
 
   removeProduct = (id) => {
@@ -114,6 +116,7 @@ export class DataProvider extends Component {
         }
       });
       this.setState({ cart: cart });
+      this.getTotal();
     }
   };
 
