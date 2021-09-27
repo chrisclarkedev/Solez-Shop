@@ -8,8 +8,12 @@ import '../styles/Details.css';
 export class Cart extends Component {
   static contextType = DataContext;
 
+  componentDidMount() {
+    this.context.getTotal();
+  }
+
   render() {
-    const { cart, increase, reduction, removeProduct } = this.context;
+    const { cart, increase, reduction, removeProduct, total } = this.context;
     if (cart.length === 0) {
       return <h2 style={{ textAlign: 'center' }}>No Products</h2>;
     } else {
@@ -45,7 +49,7 @@ export class Cart extends Component {
           ))}
           <div className="total">
             <Link to="/payment">Payment</Link>
-            <h3>Total: 0</h3>
+            <h3>Total: ${total}</h3>
           </div>
         </>
       );

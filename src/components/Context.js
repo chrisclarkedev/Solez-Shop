@@ -67,6 +67,7 @@ export class DataProvider extends Component {
       },
     ],
     cart: [],
+    total: 0,
   };
 
   addtoCart = (id) => {
@@ -116,9 +117,17 @@ export class DataProvider extends Component {
     }
   };
 
+  getTotal = () => {
+    const { cart } = this.state;
+    const res = cart.reduce((prev, item) => {
+      return prev + item.price * item.count;
+    }, 0);
+    this.setState({ total: res });
+  };
+
   render() {
-    const { products, cart } = this.state;
-    const { addtoCart, reduction, increase, removeProduct } = this;
+    const { products, cart, total } = this.state;
+    const { addtoCart, reduction, increase, removeProduct, getTotal } = this;
     return (
       <DataContext.Provider
         value={{
@@ -128,6 +137,8 @@ export class DataProvider extends Component {
           reduction,
           increase,
           removeProduct,
+          total,
+          getTotal,
         }}
       >
         {this.props.children}
