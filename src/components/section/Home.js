@@ -7,7 +7,6 @@ export class Home extends Component {
     return (
       <div>
         <CarouselContainer />
-        <h1>New Arrivals</h1>
       </div>
     );
   }

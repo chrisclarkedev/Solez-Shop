@@ -6,12 +6,12 @@ import car4 from '../images/car4.jpg';
 
 const CarouselContainer = () => {
   return (
-    <Carousel>
+    <Carousel controls={false} fade={true} pause={false}>
       {/* INTERVAL IS 2 sec. */}
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={car1} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>New Arrivals</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
