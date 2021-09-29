@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
-import car1 from '../images/car1.jpg';
+import car3 from '../images/car3.jpg';
 import car2 from '../images/car2.jpg';
 import car4 from '../images/car4.jpg';
+import '../styles/Carousels.css';
 
 const CarouselContainer = () => {
   return (
     <Carousel controls={false} fade={true} pause={false}>
       {/* INTERVAL IS 2 sec. */}
       <Carousel.Item interval={2000}>
-        <img className="d-block w-100" src={car1} alt="First slide" />
+        <img className="d-block w-100" src={car4} alt="First slide" />
         <Carousel.Caption>
-          <h3>New Arrivals</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h4>New Arrivals</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
-        <img className="d-block w-100" src={car4} alt="Second slide" />
+        <img className="d-block w-100" src={car3} alt="Second slide" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
