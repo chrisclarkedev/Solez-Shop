@@ -1,15 +1,61 @@
-h4 {
-  color: red;
-  font-size: 260px;
+.carousel-caption h5 {
+  color: yellow;
   opacity: 0.65;
+  text-transform: uppercase;
+  font-size: 200px;
+  padding-bottom: 35px;
+}
+
+.carousel-caption p {
+  color: yellow;
+  font-size: 18px;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+}
+
+.carousel-caption h3 {
+  color: yellow;
+  font-size: 85px;
+  opacity: 0.65;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.carousel-caption h4 {
+  color: yellow;
+  font-size: 85px;
+  opacity: 0.65;
+  padding-bottom: 50px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 650px) {
-  .carousel-caption h4 {
+  .carousel-caption h5 {
     font-size: 350%;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
-    color: red;
+    color: yellow;
+    opacity: 0.65;
+  }
+  .carousel-caption h3 {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    color: yellow;
+    opacity: 0.65;
+    text-align: center;
+  }
+  .carousel-caption p {
+    color: yellow;
+    font-size: 18px;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black,
+      0 -0.07em black;
+    font-size: 75%;
+  }
+  .carousel-caption h4 {
+    font-size: 250%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    color: yellow;
     opacity: 0.65;
   }
 }
