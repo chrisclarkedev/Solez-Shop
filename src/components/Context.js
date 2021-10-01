@@ -62,7 +62,7 @@ export class DataProvider extends Component {
         Description: 'Testing Testing 123',
         Brand: 'Adidas',
         price: '85',
-        colors: ['black', 'blue'],
+        colors: ['black', 'blue', 'grey'],
         count: 1,
       },
     ],
