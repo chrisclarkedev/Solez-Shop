@@ -35,7 +35,7 @@ export class Details extends Component {
             <div className="box">
               <div className="row">
                 <h2>{item.title}</h2>
-                <span>{item.price}</span>
+                <span>${item.price}</span>
               </div>
               <Colors colors={item.colors} />
               <p>{item.Brand}</p>
