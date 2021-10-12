@@ -13,10 +13,10 @@ export class Section extends Component {
       <section>
         <Route path="/" component={Home} exact />
         <Route path="/product" component={Products} exact />
+        <Route path="/contact" component={Contact} exact />
         <Route path="/product/:id" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route path="/payment" component={Payment} />
-        <Route path="/contact" component={Contact} />
       </section>
     );
   }
