@@ -40,9 +40,9 @@ export class Header extends Component {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/info">Info</Link>
-            </li> */}
+            </li>
             <li>
               <Link to="/login">Login</Link>
             </li>
