@@ -20,18 +20,18 @@
   margin: 25px;
 }
 
-.box .row {
+.box .row2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 
-.box .row h2 {
+.box .row2 h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.box .row span {
+.box .row2 span {
   color: red;
 }
 

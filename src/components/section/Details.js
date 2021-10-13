@@ -33,7 +33,7 @@ export class Details extends Component {
           <div className="details" key={item._id}>
             <img src={item.src} alt="" />
             <div className="box">
-              <div className="row">
+              <div className="row2">
                 <h2>{item.title}</h2>
                 <span>${item.price}</span>
               </div>
