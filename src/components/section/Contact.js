@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/Carousels.css';
 import { Link } from 'react-router-dom';
 
 export class CForm extends Component {
