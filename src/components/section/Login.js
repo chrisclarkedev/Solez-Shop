@@ -16,7 +16,7 @@ export class Login extends Component {
                 ></img>
               </div>
               <div class="col-lg-7 text-center py-5">
-                <h1>Login / Register</h1>
+                <h1>Login / Sign Up</h1>
                 <form>
                   <div className="form-row py-2 pt-5">
                     <div className="offset-1 col-lg-10">
@@ -42,7 +42,7 @@ export class Login extends Component {
                     </div>
                   </div>
                 </form>
-                <u>Or Register</u>
+                <u>or Sign Up</u>
               </div>
             </div>
           </div>
