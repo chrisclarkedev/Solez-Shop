@@ -38,15 +38,11 @@ export class Login extends Component {
                   </div>
                   <div className="form-row py-3">
                     <div className="offset-1 col-lg-10">
-                      <button class="btn1">Register</button>
+                      <button class="btn1">Login</button>
                     </div>
                   </div>
-                  <div class="col-mid-12">
-                    <button type="submit" class="btn btn-dark">
-                      Login
-                    </button>
-                  </div>
                 </form>
+                <u>Or Register</u>
               </div>
             </div>
           </div>
