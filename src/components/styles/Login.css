@@ -40,3 +40,8 @@
   background: skyblue;
   color: white;
 }
+
+.btn1:hover {
+  background: rgb(16, 140, 189);
+  transition: 0.5s;
+}
