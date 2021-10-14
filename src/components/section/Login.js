@@ -16,7 +16,37 @@ export class Login extends Component {
                 ></img>
               </div>
               <div class="col-lg-7 text-center py-5">
-                <h1>LOGIN</h1>
+                <h1>Login / Register</h1>
+                <form>
+                  <div className="form-row py-2 pt-5">
+                    <div className="offset-1 col-lg-10">
+                      <input
+                        type="text"
+                        class="inp px-3"
+                        placeholder="Email or Username"
+                      ></input>
+                    </div>
+                  </div>
+                  <div className="form-row py-2">
+                    <div className="offset-1 col-lg-10">
+                      <input
+                        type="password"
+                        class="inp px-3"
+                        placeholder="Password"
+                      ></input>
+                    </div>
+                  </div>
+                  <div className="form-row py-3">
+                    <div className="offset-1 col-lg-10">
+                      <button class="btn1">Register</button>
+                    </div>
+                  </div>
+                  <div class="col-mid-12">
+                    <button type="submit" class="btn btn-dark">
+                      Login
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
