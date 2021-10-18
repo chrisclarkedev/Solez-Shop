@@ -45,3 +45,15 @@
   background: rgb(16, 140, 189);
   transition: 0.5s;
 }
+
+/* 
+MEDIA QUERY  */
+
+@media (max-width: 650px) {
+  .login img {
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 12%;
+  }
+}
