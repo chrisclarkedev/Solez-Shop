@@ -51,10 +51,8 @@ MEDIA QUERY  */
 
 @media (max-width: 650px) {
   .login img {
-    /* border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px; */
     border-top-right-radius: 5%;
-    border-bottom-right-radius: 12%;
+    border-bottom-right-radius: 8%;
   }
   .login h1 {
     font-size: 2rem;
@@ -62,12 +60,12 @@ MEDIA QUERY  */
   .inp {
     position: relative;
     bottom: 60px;
-    right: 12px;
+    right: 13px;
   }
   .btn1 {
     position: relative;
     bottom: 40px;
-    right: 12px;
+    right: 13px;
   }
   u {
     position: relative;
