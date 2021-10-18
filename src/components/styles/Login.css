@@ -56,4 +56,22 @@ MEDIA QUERY  */
     border-top-right-radius: 5%;
     border-bottom-right-radius: 12%;
   }
+  .login h1 {
+    font-size: 2rem;
+  }
+  .inp {
+    position: relative;
+    bottom: 60px;
+    right: 12px;
+  }
+  .btn1 {
+    position: relative;
+    bottom: 40px;
+    right: 12px;
+  }
+  u {
+    position: relative;
+    bottom: 40px;
+    right: 6px;
+  }
 }
