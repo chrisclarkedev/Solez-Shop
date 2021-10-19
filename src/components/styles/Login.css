@@ -49,7 +49,7 @@
 /* 
 MEDIA QUERY  */
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   .login img {
     border-top-right-radius: 5%;
     border-bottom-right-radius: 8%;
