@@ -10,14 +10,18 @@ import img7 from '../images/top7_nikeblazrwhite.jpg';
 import img8 from '../images/top8_j1ogpollen.jpg';
 import img9 from '../images/top9_vanssk8hi.jpg';
 import img10 from '../images/top10_nbredsuede.jpg';
+import img11 from '../images/top11_nmdhrgreen.jpg';
+import img12 from '../images/top12_ctxmso.jpg';
 
 export class Info extends Component {
   render() {
     return (
       <>
-        <h1>Top 10 Trending</h1>
+        <div class="tester">
+          <h1>Now Trending</h1>
+        </div>
         <div class="container-fluid">
-          <div class="row8">
+          <div class="row">
             <div class="column">
               <img src={img1} alt="" />
               <img src={img2} alt="" />
@@ -33,6 +37,8 @@ export class Info extends Component {
             <div class="column">
               <img src={img9} alt="" />
               <img src={img10} alt="" />
+              <img src={img11} alt="" />
+              <img src={img12} alt="" />
             </div>
           </div>
         </div>
