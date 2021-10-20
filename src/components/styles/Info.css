@@ -35,6 +35,9 @@
   cursor: pointer;
   transition: 0.3s linear;
 }
+.column img:hover {
+  filter: grayscale(0.5) brightness(0.5);
+}
 
 @media screen and (max-width: 800px) {
   .column {
