@@ -20,7 +20,7 @@ export class Info extends Component {
         <div class="tester">
           <h1>Now Trending</h1>
         </div>
-        <div class="containerfluid">
+        {/* <div class="containerfluid">
           <div class="row">
             <div class="column">
               <img src={img11} alt="" />
@@ -41,12 +41,12 @@ export class Info extends Component {
               <img src={img12} alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
         <section clas="bg-dark p-5">
           <div class="container">
             <div class="card-group">
-              <div class="card">
-                <div class="card-body">
+              <div class="card crdimg1">
+                <div class="card-body cb1">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural
@@ -54,24 +54,24 @@ export class Info extends Component {
                     longer.
                   </p>
                   <a class="btn btn-primary" href="#" role="button">
-                    Link
+                    TEST
                   </a>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-body">
+              <div class="card crdimg2">
+                <div class="card-body cb2">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
                     This card has supporting text below as a natural lead-in to
                     additional content.
                   </p>
                   <a class="btn btn-primary" href="#" role="button">
-                    Link
+                    TEST
                   </a>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-body">
+              <div class="card crdimg3">
+                <div class="card-body cb3">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
                     This is a wider card with supporting text below as a natural
@@ -79,7 +79,7 @@ export class Info extends Component {
                     content than the first to show that equal height action.
                   </p>
                   <a class="btn btn-primary" href="#" role="button">
-                    Link
+                    TEST
                   </a>
                 </div>
               </div>

@@ -46,6 +46,43 @@
 
 /* TESTING */
 
+.crdimg1 {
+  border: none;
+  background-image: url('../images/top11_nmdhrgreen.jpg');
+  background-position: center;
+  background-size: 109%;
+  background-repeat: no-repeat;
+}
+
+.crdimg2 {
+  border: none;
+  background-image: url('../images/top9_vanssk8hi.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.crdimg3 {
+  border: none;
+  background-image: url('../images/top8_j1ogpollen.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* TEXT BACKGROUND COLOR */
+.cb1,
+.cb2,
+.cb3 {
+  background: grey;
+  opacity: 0;
+  transition-duration: 1s;
+}
+.cb1:hover,
+.cb2:hover,
+.cb3:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
