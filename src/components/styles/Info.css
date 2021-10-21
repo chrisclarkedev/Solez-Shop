@@ -44,34 +44,7 @@
   cursor: pointer;
 }
 
-/* Text Overlay */
-
-/* .column .overlay {
-  flex: 25%;
-  max-width: 33.3%;
-  padding: 0 4px;
-  position: relative;
-}
-
-.column .overlay img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.1s linear;
-  position: relative;
-}
-.column .imageOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+/* TESTING */
 
 @media screen and (max-width: 800px) {
   .column {

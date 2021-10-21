@@ -20,7 +20,7 @@ export class Info extends Component {
         <div class="tester">
           <h1>Now Trending</h1>
         </div>
-        <div class="container-fluid">
+        <div class="containerfluid">
           <div class="row">
             <div class="column">
               <img src={img11} alt="" />
@@ -42,6 +42,50 @@ export class Info extends Component {
             </div>
           </div>
         </div>
+        <section clas="bg-dark p-5">
+          <div class="container">
+            <div class="card-group">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a class="btn btn-primary" href="#" role="button">
+                    Link
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <a class="btn btn-primary" href="#" role="button">
+                    Link
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <a class="btn btn-primary" href="#" role="button">
+                    Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </>
     );
   }
