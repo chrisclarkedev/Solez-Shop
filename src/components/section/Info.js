@@ -53,9 +53,6 @@ export class Info extends Component {
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a class="btn btn-primary" href="#" role="button">
-                    TEST
-                  </a>
                 </div>
               </div>
               <div class="card crdimg2">
@@ -65,9 +62,6 @@ export class Info extends Component {
                     This card has supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <a class="btn btn-primary" href="#" role="button">
-                    TEST
-                  </a>
                 </div>
               </div>
               <div class="card crdimg3">
@@ -78,9 +72,6 @@ export class Info extends Component {
                     lead-in to additional content. This card has even longer
                     content than the first to show that equal height action.
                   </p>
-                  <a class="btn btn-primary" href="#" role="button">
-                    TEST
-                  </a>
                 </div>
               </div>
             </div>

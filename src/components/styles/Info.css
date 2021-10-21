@@ -70,6 +70,14 @@
 }
 
 /* TEXT BACKGROUND COLOR */
+.card-title {
+  color: whitesmoke;
+}
+
+.card-text {
+  color: whitesmoke;
+}
+
 .cb1,
 .cb2,
 .cb3 {
