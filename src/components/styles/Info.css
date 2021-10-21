@@ -8,7 +8,8 @@
 }
 
 .tester h1 {
-  color: white;
+  color: black;
+  font-weight: bolder;
   text-align: center;
   padding-top: 12px;
 }
@@ -33,10 +34,12 @@
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s linear;
+  transition: 0.1s linear;
+  position: relative;
 }
 .column img:hover {
-  filter: grayscale(0.5) brightness(0.5);
+  filter: grayscale(0) brightness(0.3);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
