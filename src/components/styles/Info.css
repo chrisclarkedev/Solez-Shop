@@ -4,11 +4,11 @@
   background-image: linear-gradient(#c3c3c3, #615a58);
   border-bottom-left-radius: 50% 30%;
   border-bottom-right-radius: 50% 30%;
-  opacity: 0.65;
+  /* opacity: 0.65; */
 }
 
 .tester h1 {
-  color: black;
+  color: #333;
   font-weight: bolder;
   text-align: center;
   padding-top: 12px;
@@ -46,7 +46,7 @@
 
 /* Text Overlay */
 
-.column .overlay {
+/* .column .overlay {
   flex: 25%;
   max-width: 33.3%;
   padding: 0 4px;
@@ -71,7 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 @media screen and (max-width: 800px) {
   .column {
