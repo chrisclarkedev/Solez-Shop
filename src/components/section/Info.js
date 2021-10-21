@@ -24,15 +24,7 @@ export class Info extends Component {
           <div class="row">
             <div class="column">
               <img src={img11} alt="" />
-              <div className="imageOverlay">
-                <div className="imageTitle">TESTER</div>
-                <p class="imageDesc">This is a description</p>
-              </div>
               <img src={img2} alt="" />
-              <div className="imageOverlay">
-                <div className="imageTitle">TESTER</div>
-                <p class="imageDesc">This is a description</p>
-              </div>
               <img src={img3} alt="" />
               <img src={img4} alt="" />
             </div>
