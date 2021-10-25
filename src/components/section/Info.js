@@ -42,41 +42,15 @@ export class Info extends Component {
             </div>
           </div>
         </div> */}
-        <section clas="bg-dark p-5">
-          <div class="container">
-            <div class="card-group">
-              <div class="card crdimg1">
-                <div class="card-body cb1">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-              <div class="card crdimg2">
-                <div class="card-body cb2">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                </div>
-              </div>
-              <div class="card crdimg3">
-                <div class="card-body cb3">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </p>
-                </div>
+        <div class="container2">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <h1>hello</h1>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </>
     );
   }
