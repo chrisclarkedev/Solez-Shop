@@ -7,7 +7,7 @@
   /* opacity: 0.65; */
 }
 
-.tester h1 {
+.tester h2 {
   color: #333;
   font-weight: bolder;
   text-align: center;
@@ -45,6 +45,30 @@
 }
 
 /* TESTING */
+.col1 {
+  background-image: url('../images/top11_nmdhrgreen.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.col2 {
+  background-image: url('../images/top2_j5oreo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+/* HOVERING TEXT STYLING ON HOVER*/
+.hvrtxt {
+  background: #00000080;
+  opacity: 0;
+  transition-duration: 1.2s;
+  /* transition-timing-function: ease-in-out; */
+}
+.hvrtxt:hover {
+  background: #00000080;
+  opacity: 1;
+}
 
 /* TEXT BACKGROUND COLOR */
 

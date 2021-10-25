@@ -18,7 +18,7 @@ export class Info extends Component {
     return (
       <>
         <div class="tester">
-          <h1>Now Trending</h1>
+          <h2>Now Trending</h2>
         </div>
         {/* <div class="containerfluid">
           <div class="row">
@@ -46,7 +46,170 @@ export class Info extends Component {
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col1 p-0 m-3">
-                <h1>hello</h1>
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col2 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="col1 p-0 m-3">
+                <div class="hvrtxt p-5 text-center text-light">
+                  <h3>MY HEADING</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid dolorum id laborum error sunt doloremque,
+                    exercitationem aperiam delectus quibusdam adipisci
+                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
+                    cupiditate nam!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
