@@ -25,7 +25,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col1 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -39,7 +39,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col2 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -53,7 +53,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col3 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -67,7 +67,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col4 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -81,7 +81,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col11 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -95,7 +95,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col6 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -109,7 +109,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col7 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -123,7 +123,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col8 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -137,7 +137,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col9 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -151,7 +151,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col10 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -165,7 +165,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col5 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
@@ -179,7 +179,7 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col12 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>MY HEADING</h3>
+                  <h3>NAME OF SNEAKER</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid dolorum id laborum error sunt doloremque,
