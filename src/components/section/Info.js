@@ -20,28 +20,6 @@ export class Info extends Component {
         <div class="tester">
           <h2>Now Trending</h2>
         </div>
-        {/* <div class="containerfluid">
-          <div class="row">
-            <div class="column">
-              <img src={img11} alt="" />
-              <img src={img2} alt="" />
-              <img src={img3} alt="" />
-              <img src={img4} alt="" />
-            </div>
-            <div class="column">
-              <img src={img8} alt="" />
-              <img src={img6} alt="" />
-              <img src={img7} alt="" />
-              <img src={img5} alt="" />
-            </div>
-            <div class="column">
-              <img src={img9} alt="" />
-              <img src={img10} alt="" />
-              <img src={img1} alt="" />
-              <img src={img12} alt="" />
-            </div>
-          </div>
-        </div> */}
         <div class="container2">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -73,7 +51,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col3 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -87,7 +65,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col4 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -101,7 +79,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col11 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -115,7 +93,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col6 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -129,7 +107,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col7 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -143,7 +121,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col8 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -157,7 +135,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col9 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -171,7 +149,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col10 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -185,7 +163,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col5 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>
@@ -199,7 +177,7 @@ export class Info extends Component {
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="col1 p-0 m-3">
+              <div class="col12 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
                   <h3>MY HEADING</h3>
                   <p>

@@ -58,6 +58,73 @@
   background-position: center;
 }
 
+.col3 {
+  background-image: url('../images/top3_yeezybred.jpg');
+  background-repeat: no-repeat;
+  background-size: 148%;
+  background-position: center;
+}
+
+.col4 {
+  background-image: url('../images/top4_zoomfly.jpg');
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+}
+
+.col5 {
+  background-image: url('../images/top5_washorange.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.col6 {
+  background-image: url('../images/top6_omniwhite.jpg');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.col7 {
+  background-image: url('../images/top7_nikeblazrwhite.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.col8 {
+  background-image: url('../images/top8_j1ogpollen.jpg');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+}
+
+.col9 {
+  background-image: url('../images/top9_vanssk8hi.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.col10 {
+  background-image: url('../images/top10_nbredsuede.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.col11 {
+  background-image: url('../images/top1_dunklowbw.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.col12 {
+  background-image: url('../images/top12_ctxmso.jpg');
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: center;
+}
+
 /* HOVERING TEXT STYLING ON HOVER*/
 .hvrtxt {
   background: #00000080;
