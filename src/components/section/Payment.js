@@ -4,7 +4,7 @@ export class Payment extends Component {
   render() {
     return (
       <div>
-        <h2 style={{ textAlign: 'center' }}>Payment Component</h2>
+        <h2 style={{ textAlign: 'center' }}>Payment Info</h2>
       </div>
     );
   }
