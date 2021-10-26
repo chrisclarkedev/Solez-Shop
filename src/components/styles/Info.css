@@ -130,7 +130,12 @@
   background: #00000080;
   opacity: 0;
   transition-duration: 1.2s;
-  /* transition-timing-function: ease-in-out; */
+  transition-timing-function: ease-in-out;
+  height: 375px;
+}
+
+h3 {
+  text-align: center;
 }
 .hvrtxt:hover {
   background: #00000080;

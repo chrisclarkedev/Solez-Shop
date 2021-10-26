@@ -25,168 +25,84 @@ export class Info extends Component {
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col1 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Pharrell X NMD Human Race 'Green'</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col2 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Air Jordan 5 'Oreo'</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col3 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Yeezy BRED</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col4 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Nike Zoom Fly 3 'Electric Green'</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col11 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Dunk Low 'Black White'</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col6 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Reebok Pump Omni Zone 2 White</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col7 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Nike Blazer Mid '77 White</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col8 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Air Jordan 1 'Pollen'</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col9 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Vans S8-Hi</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col10 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>New Balance 998 Suede</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col5 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Yeezy Wash Orange</h2>
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="col12 p-0 m-3">
                 <div class="hvrtxt p-5 text-center text-light">
-                  <h3>NAME OF SNEAKER</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aliquid dolorum id laborum error sunt doloremque,
-                    exercitationem aperiam delectus quibusdam adipisci
-                    voluptatem voluptatibus, ab voluptas nemo eaque. Ea in
-                    cupiditate nam!
-                  </p>
+                  <h2>Chuck Taylor XMSO</h2>
                 </div>
               </div>
             </div>
