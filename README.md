@@ -1,6 +1,8 @@
 # Solez - Shopping Product Page
 
 Click [here](https://solez-shop.surge.sh/) for a live demo!
+&nbsp;
+&nbsp;
 
 ## Description
 
