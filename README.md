@@ -1,8 +1,13 @@
 # Solez - Shopping Product Page
 
+Click [here](https://solez-shop.surge.sh/) for a live demo!
+
 ## Description
 
 Simple shopping page for various sneakers.
+
+&nbsp;
+&nbsp;
 
 ### Features-List
 
@@ -16,7 +21,7 @@ Local storage saves the context of the shoppihg cart. So even if you exit browse
 
 User is able to click on the product itself bringing you to product page.
 
-On product page it displays "id, name of product, color or product, price, brand".
+On product page it displays "id, name of product, color or product, price, brand, description".
 
 Contact form page included "First name, Last name, E-mail, Phone number, Questions Components.
 
