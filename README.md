@@ -45,6 +45,7 @@ User is able to remove product from shopping cart followed by a prompt that aske
 &nbsp;
 
 **Expected Challenges**
+
 \*Routing various components for consistency.
 
 \*Creating simple and easily navigated UI.
