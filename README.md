@@ -44,6 +44,11 @@ User is able to remove product from shopping cart followed by a prompt that aske
 &nbsp;
 &nbsp;
 
+**Expected Challenges**
+\*Routing various components for consistency.
+
+\*Creating simple and easily navigated UI.
+
 **Supported Libraries**
 
 - Client-Side
