@@ -51,6 +51,8 @@ User is able to remove product from shopping cart followed by a prompt that aske
 
 \*Creating simple and easily navigated UI.
 
+\*Passing of props and settings things into state.
+
 **Supported Libraries**
 
 - Client-Side
