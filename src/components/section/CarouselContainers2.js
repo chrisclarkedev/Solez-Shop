@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import car3 from '../images/car3.jpg';
 import car4 from '../images/car4.jpg';
 import car6 from '../images/car6.jpg';
-// import car1 from '../images/car1.jpg';
-// import car2 from '../images/car2.jpg';
 import '../styles/Carousels.css';
 
-const CarouselContainer = () => {
+const CarouselContainer2 = () => {
   return (
     <Carousel controls={false} fade={true} pause={false}>
       {/* INTERVAL IS 2 sec. */}
@@ -37,4 +35,4 @@ const CarouselContainer = () => {
   );
 };
 
-export default CarouselContainer;
+export default CarouselContainer2;
