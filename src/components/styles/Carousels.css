@@ -60,6 +60,17 @@
   }
 }
 
+@media (orientation: landscape) {
+  .carousel-caption h5 {
+    font-size: 8rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    color: yellow;
+    opacity: 0.65;
+    /* padding-right: 20px; */
+  }
+}
 /* h1 {
   text-align: center;
   padding-bottom: 25px;
