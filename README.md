@@ -3,6 +3,8 @@
 &nbsp;
 &nbsp;
 
+Click [here](https://solez-shop.surge.sh/) to try it out!
+
 ## Description
 
 Simple shopping page for various sneakers.
