@@ -1,12 +1,8 @@
 # Solez - Shopping Product Page
 
-&nbsp;
-&nbsp;
+![picture alt](https://i.ibb.co/2sDSBcp/collect2-726x394.jpg)
 
 Click [here](https://solez-shop.surge.sh/) to try it out!
-&nbsp;
-&nbsp;
-&nbsp;
 
 ## Description
 
