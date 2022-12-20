@@ -2,7 +2,8 @@
 
 ![picture alt](https://i.ibb.co/2sDSBcp/collect2-726x394.jpg)
 
-Click [here](https://solez-shop.surge.sh/) to try it out!
+[LIVE](https://solez-shop.surge.sh/)
+Click above to try it out!
 
 ## Description
 
